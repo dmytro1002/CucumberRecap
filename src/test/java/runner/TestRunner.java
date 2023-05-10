@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                   "rerun:target/rerun.txt"},
         features = "src/test/resources/features",
         glue = "steps",
-        tags = "@EAV-1",
+        tags = "@POF-1",
         publish = true,
         monochrome = true
 
