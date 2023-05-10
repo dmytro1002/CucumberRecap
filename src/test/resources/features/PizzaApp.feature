@@ -3,7 +3,7 @@ Feature:  Pizza application place order functionality
 
   @RTB-15 @POF-1
   Scenario: Validating successful place order
-    Given user navigates to "PizzaApp" application
+    Given user navigates to "PizzaAppURL" application
     When user creates pizza order with data
       | Pizza    | Small 6 Slices - no toppings |
       | Topping1 | Mushrooms                    |
